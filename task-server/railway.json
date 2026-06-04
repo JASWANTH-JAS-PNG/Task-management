@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "build": {
+    "command": "npm install"
+  },
+  "start": {
+    "command": "npm start"
+  },
+  "env": {
+    "MONGODB_URI": "$MONGODB_URI",
+    "JWT_SECRET": "$JWT_SECRET",
+    "PORT": "$PORT",
+    "NODE_ENV": "production"
+  }
+}
